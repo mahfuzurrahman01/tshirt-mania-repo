@@ -1,0 +1,23 @@
+.items img{
+    height: 220px;
+}
+.items {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+}
+.items h2,p{
+    margin: 0px;
+  
+}
+.items .btn{
+    background-color: rgba(252, 53, 53, 0.879);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    color: white;
+    margin-top: 4px;
+}
+.items .btn:hover {
+    background-color: rgb(251, 18, 18);
+}
