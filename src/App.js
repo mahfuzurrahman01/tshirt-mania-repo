@@ -17,6 +17,7 @@ function App() {
       children: [
         {
           path: '/',
+          loader: () => fetch('product.json'),
           element: <Home></Home>
         },
         {
@@ -33,7 +34,7 @@ function App() {
           element: <About></About>
         },
         {
-          path:'/grandpa',
+          path: '/grandpa',
           element: <Grandpa></Grandpa>
         }
       ]
